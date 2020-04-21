@@ -47,13 +47,13 @@ int main()
 	cout << " D04217025"<<endl;
    	cout << "=============================="<<endl;	
 }
-	void header (){
+  void header (){
 	cout << "==================================="<< endl;
 	cout << "Program menghitung lingkaran dan tabung"<< endl;
 	cout << "==================================="<< endl;
-	}
+  }
 		
-	void Lingkaran () {
+  void Lingkaran () {
 	int r;
 	int pilih;
 	float phi = 3.14;
@@ -88,9 +88,9 @@ int main()
 		break;	
 		}
 		
-	}
+  }
 	
-	void Tabung (){
+  void Tabung (){
 	int r ;
 	int t;
 	int pilih;
@@ -129,5 +129,5 @@ int main()
 			cout<<"Pilihan yang anda inginkan tidak ditemukan"<<endl;
 		break;		
 		}
-	}
+  }
 
